@@ -10,7 +10,7 @@ Group Members
   
   Stephen Fusco - Descriptive Statistics Functions
   
-  Task Breakdown
+  Task Breakdown :
   
   mean calls the @staticmethod from DescriptiveStatFunctions.mean (Calculator/functions/descriptive.stat_functions.py)
   
@@ -20,7 +20,7 @@ Group Members
   
   variance calls the @staticmethod from DescriptiveStatFunctions.variance (Calculator/functions/descriptive.stat_functions.py)
   
-  standarddeviation calls the @staticmethod from DescriptiveStatFunctions.standard_deviation (Calculator/functions/descriptive.stat_functions.py)
+  standard deviation calls the @staticmethod from DescriptiveStatFunctions.standard_deviation (Calculator/functions/descriptive.stat_functions.py)
   
   zScore calls the @staticmethod from DescriptiveStatFunctions.zScore (Calculator/functions/descriptive.stat_functions.py)
   
