@@ -14,5 +14,12 @@ class DescriptiveStatCalc(Calculator):
         self.result.append(DescriptiveStatFunctions.median(input_list))
         return self.result[-1]
 
+    def mode(self, input_list: list) -> float:
+        self.result.append(DescriptiveStatFunctions.mode(input_list))
+        return self.result[-1]
+
+    def variance(self, input_list: list) -> float:
+        self.result.append(DescriptiveStatFunctions.variance(input_list))
+        return self.result[-1]
 
 
