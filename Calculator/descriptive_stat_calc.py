@@ -10,5 +10,9 @@ class DescriptiveStatCalc(Calculator):
         self.result.append(DescriptiveStatFunctions.mean(input_list))
         return self.result[-1]
 
+    def median(self, input_list: list) -> float:
+        self.result.append(DescriptiveStatFunctions.median(input_list))
+        return self.result[-1]
+
 
 
