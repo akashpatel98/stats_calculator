@@ -20,3 +20,30 @@ class DescriptiveStatFunctions:
             median = Functions.Division(Functions.Addition(numbers[leftMidIndex], numbers[rightMidIndex]), 2)
         return float(median)
 
+    @staticmethod
+    def mode(numbers: list) -> list:
+        d = {}
+        for number in numbers:
+            if number in d.keys():
+                d[number] += 1
+            else:
+                d[number] = 1
+        occurrences = 0
+        for number in numbers:
+            if d[number] > occurrences:
+                occurrences = d[number]
+        mode = []
+        for number in d.keys():
+            if d[number] == occurrences:
+                mode.append(number)
+        return mode
+
+    @staticmethod
+    def variance(numbers: list) -> float:
+        mean = DescriptiveStatFunctions.mean(numbers)
+        SquareDiff = []
+        for number in numbers:
+            SquareDiff.append(Functions.Square(Functions.Subtraction(mean, number)))
+        varience = Functions.Division(sum(SquareDiff), len(numbers))
+        return varience
+
