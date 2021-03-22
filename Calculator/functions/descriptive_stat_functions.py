@@ -47,3 +47,16 @@ class DescriptiveStatFunctions:
         varience = Functions.Division(sum(SquareDiff), len(numbers))
         return varience
 
+    @staticmethod
+    def standard_deviation(numbers: list) -> float:
+        standard_deviation = Functions.Square_Root(DescriptiveStatFunctions.variance(numbers))
+        return standard_deviation
+
+    @staticmethod
+    def zScore(numbers: list) -> list:
+        z_Scores = []
+        standard_deviation = DescriptiveStatFunctions.standard_deviation(numbers)
+        mean = DescriptiveStatFunctions.mean(numbers)
+        for number in numbers:
+            z_Scores.append(Functions.Division(Functions.Subtraction(number, mean), standard_deviation))
+        return z_Scores
