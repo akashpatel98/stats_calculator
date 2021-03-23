@@ -1,4 +1,5 @@
 # stats_calculator
+[![Coverage Status](https://coveralls.io/repos/github/akashpatel98/stats_calculator/badge.svg?branch=master)](https://coveralls.io/github/akashpatel98/stats_calculator?branch=master)
 
 Group Members
   Akash Patel,
