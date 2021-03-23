@@ -9,9 +9,9 @@ Group Members
   Project: Adding Statistical operations to calculator. 
   
   Akash Patel 
-   Random Generator
-   Tests
-   Random
+  - Random Generator
+  - Tests
+  - Random
    
   
   Requirements:
