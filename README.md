@@ -13,8 +13,7 @@ Group Members
   - Tests
   - Random
    
-  
-  Requirements:
+ 
   
   Stephen Fusco - Descriptive Statistics Functions 
   
